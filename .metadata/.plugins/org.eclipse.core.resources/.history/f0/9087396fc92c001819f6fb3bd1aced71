@@ -1,0 +1,5 @@
+package com.lakshmi.springmvc;
+
+public class EmployeeBean {
+
+}

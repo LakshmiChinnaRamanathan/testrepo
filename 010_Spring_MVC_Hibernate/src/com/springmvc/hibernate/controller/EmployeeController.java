@@ -1,0 +1,27 @@
+package com.springmvc.hibernate.controller;
+
+import java.util.List;
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.method.support.ModelAndViewContainer;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.spring.form.employee.bean.EmployeeBean;
+
+@Controller
+@RequestMapping("/employee")
+public class EmployeeController {
+	 @RequestMapping(value="/home",method=RequestMethod.GET)
+	    public ModelAndView welcome() {
+	    	return  new ModelAndView("index");
+	    }
+	    
+    
+		
+	}
+
+
