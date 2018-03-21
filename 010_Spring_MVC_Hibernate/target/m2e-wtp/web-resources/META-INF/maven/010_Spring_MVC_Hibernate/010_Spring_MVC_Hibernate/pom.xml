@@ -7,6 +7,10 @@
 	<packaging>war</packaging>
 	<name>Spring_MVC_Hibernate</name>
 	<description>Spring_MVC_Hibernate</description>
+	<properties>
+        <spring.version>4.2.0.RELEASE</spring.version>
+        <jstl.version>1.2</jstl.version>
+    </properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>

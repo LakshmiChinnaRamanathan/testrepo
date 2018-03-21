@@ -9,7 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.springmvc.hibernate.bean.EmployeeBean;
 import com.springmvc.hibernate.entity.EmployeeEntity;
-import com.springmvc.service.EmployeeService;
+import com.springmvc.hibernate.service.EmployeeService;
+
 
 @Controller
 public class EmployeeController {
@@ -24,18 +25,18 @@ public class EmployeeController {
 	 }
 	
 	
-	@RequestMapping("/employeeForm")
+	@RequestMapping("/empform")
 	public ModelAndView showform() {
 		// command is a reserved request attribute name, now use <form> tag to show
 		// object data
-		return new ModelAndView("employeeform", "command", new EmployeeBean());
+		return new ModelAndView("empform", "command", new EmployeeBean());
 	}
 	
 	@RequestMapping(value = "/saveEmployee", method = RequestMethod.POST)
 	public ModelAndView save(@ModelAttribute("emp") EmployeeBean employeeBean) {
 		// write code to save emp object
 		// here, we are displaying emp object to prove emp has data
-		System.out.println(employeeBean.getEmployeeName() + " " + employeeBean.getEmployeeSalary() + " " + employeeBean.getEmployeeDesignation());
+		System.out.println(employeeBean.getId()+" "+employeeBean.getEmployeeName() + " " + employeeBean.getEmployeeSalary() + " " + employeeBean.getEmployeeDesignation());
 		// return new ModelAndView("empform","command",emp);//will display object data
 		/*
 		 *code to save the bean to the database 
@@ -43,6 +44,7 @@ public class EmployeeController {
 		 */
 		//transfer the data from bean to entity
 		EmployeeEntity employeeEntity = new EmployeeEntity();
+		employeeEntity.setId(employeeBean.getId());
 		employeeEntity.setEmployeeName(employeeBean.getEmployeeName());
 		employeeEntity.setEmployeeSalary(employeeBean.getEmployeeSalary());
 		employeeEntity.setEmployeeDesignation(employeeBean.getEmployeeDesignation());
