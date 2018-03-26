@@ -52,14 +52,17 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="lakshmispringmvc"/>
 			<item value="010_Spring_MVC_Hibernate"/>
 			<item value="002springmvcformexample"/>
 		</list>
 		<list key="name">
+			<item value="lakshmispringmvc"/>
 			<item value="Spring_MVC_Hibernate"/>
 			<item value="002springmvcformexample"/>
 		</list>
 		<list key="artifactId">
+			<item value="lakshmispringmvc"/>
 			<item value="010_Spring_MVC_Hibernate"/>
 			<item value="002springmvcformexample"/>
 		</list>

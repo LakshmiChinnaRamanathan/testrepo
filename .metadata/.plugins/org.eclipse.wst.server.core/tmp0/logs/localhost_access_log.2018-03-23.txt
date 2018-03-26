@@ -1,0 +1,4 @@
+127.0.0.1 - - [23/Mar/2018:14:38:56 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [23/Mar/2018:14:39:11 +0530] "GET /010_Spring_MVC_Hibernate/ HTTP/1.1" 200 308
+0:0:0:0:0:0:0:1 - - [23/Mar/2018:14:39:20 +0530] "GET /010_Spring_MVC_Hibernate/empform.html HTTP/1.1" 200 880
+0:0:0:0:0:0:0:1 - - [23/Mar/2018:14:39:45 +0530] "POST /010_Spring_MVC_Hibernate/saveEmployee.html HTTP/1.1" 500 23957

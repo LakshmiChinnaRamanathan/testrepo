@@ -44,7 +44,7 @@ public class EmployeeController {
 		 */
 		//transfer the data from bean to entity
 		EmployeeEntity employeeEntity = new EmployeeEntity();
-		employeeEntity.setId(employeeBean.getId());
+		//employeeEntity.setId(employeeBean.getId());
 		employeeEntity.setEmployeeName(employeeBean.getEmployeeName());
 		employeeEntity.setEmployeeSalary(employeeBean.getEmployeeSalary());
 		employeeEntity.setEmployeeDesignation(employeeBean.getEmployeeDesignation());

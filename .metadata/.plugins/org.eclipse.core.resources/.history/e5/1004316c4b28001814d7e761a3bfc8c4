@@ -1,7 +1,0 @@
-package com.springmvc.first;
-
-public class Emp {
-	private int id;
-	private String name;
-	private double salary;
-}

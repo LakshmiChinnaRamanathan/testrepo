@@ -12,10 +12,7 @@
 <h1> welcome to empform.jsp</h1>
 <form:form method="post" action="saveEmployee.html">
 		<table>
-		<tr>
-				<td>ID:</td>
-				<td><form:input path="id" /></td>
-			</tr>
+		
 			<tr>
 				<td>Name :</td>
 				<td><form:input path="employeeName" /></td>

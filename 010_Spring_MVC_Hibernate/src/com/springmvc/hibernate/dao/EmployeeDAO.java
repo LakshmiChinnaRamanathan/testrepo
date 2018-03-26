@@ -16,7 +16,7 @@ public class EmployeeDAO {
 	public void saveEmployee(EmployeeEntity employeeEntity) {
 		// TODO Auto-generated method stub
 		
-		sessionFactory.openSession().saveOrUpdate(employeeEntity);		
+		sessionFactory.getCurrentSession().saveOrUpdate(employeeEntity);		
 	}
 
 }
