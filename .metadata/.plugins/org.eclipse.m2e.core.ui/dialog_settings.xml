@@ -2,15 +2,21 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.springboot.data"/>
+			<item value="com.springboot.com"/>
 			<item value="com.Spring.Hibernate"/>
 			<item value="com.spring.hibernate"/>
 			<item value="com.springboot.first"/>
 		</list>
 		<list key="name">
+			<item value="005_SpringBoot_MYSQL"/>
+			<item value="004_SpringBoot_HelloWorld"/>
 			<item value="Spring_MVC_Hibernate"/>
 			<item value="014springboot"/>
 		</list>
 		<list key="artifactId">
+			<item value="005_SpringBoot_MYSQL"/>
+			<item value="004_SpringBoot_HelloWorld"/>
 			<item value="004_Spring_MVC_Hibernate"/>
 			<item value="003_Spring_MVC_Hibernate"/>
 			<item value="014springboot"/>
@@ -72,6 +78,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\680831\Documents\workspace-sts-3.9.0.RELEASE\004_SpringBoot_HelloWorld"/>
 			<item value="C:\Users\680831\Documents\workspace-sts-3.9.0.RELEASE\002springmvc formexample"/>
 			<item value="C:\Users\680831\Documents\workspace-sts-3.9.0.RELEASE\012MavenSpringCore"/>
 			<item value="C:\Users\680831\Documents\workspace-sts-3.9.0.RELEASE\basicspring\src\com\spring\helloworld\Training.java"/>

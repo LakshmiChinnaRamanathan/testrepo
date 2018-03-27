@@ -4,10 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Employee Manager</title>
 </head>
 <body>
-	<a href="empform.html">Add Employee</a>
+	<a href="employeeform.html">Add Employee</a>
+	<a href="viewEmployee.html">View Employee</a>
 	
+
 </body>
 </html>

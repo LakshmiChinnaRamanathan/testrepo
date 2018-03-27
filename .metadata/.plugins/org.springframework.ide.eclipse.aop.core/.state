@@ -2,6 +2,7 @@
 <aop-reference-model>
 <aop-project name="002springmvc formexample"/>
 <aop-project name="010_Spring_MVC_Hibernate"/>
+<aop-project name="005_SpringBoot_MYSQL"/>
 <aop-project name="014springboot"/>
 <aop-project name="012MavenSpringCore"/>
 </aop-reference-model>
